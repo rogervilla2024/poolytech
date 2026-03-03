@@ -1,0 +1,335 @@
+{
+  "generated": "2026-03-03",
+  "articles": [
+    {
+      "slug": "blackjack-temel-strateji",
+      "primary_keyword": "blackjack temel strateji",
+      "secondary_keywords": [
+        "blackjack nasıl oynanır",
+        "blackjack strateji tablosu",
+        "house edge azaltma"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "blackjack-kart-sayma",
+      "primary_keyword": "blackjack kart sayma",
+      "secondary_keywords": [
+        "hi-lo sistemi",
+        "running count true count",
+        "kart sayma teknikleri"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "blackjack-soft-hand",
+      "primary_keyword": "blackjack soft hand",
+      "secondary_keywords": [
+        "as içeren eller blackjack",
+        "soft hand stratejisi",
+        "blackjack double down ne zaman"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "blackjack-sigorta-bahsi",
+      "primary_keyword": "blackjack sigorta bahsi",
+      "secondary_keywords": [
+        "blackjack insurance nedir",
+        "sigorta almak mantıklı mı",
+        "blackjack yan bahis"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "blackjack-masa-secimi",
+      "primary_keyword": "blackjack masa seçimi",
+      "secondary_keywords": [
+        "blackjack kural farklılıkları",
+        "blackjack deste sayısı",
+        "3:2 blackjack ödeme"
+      ],
+      "search_volume_estimate": "düşük",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "rulet-temel-rehber",
+      "primary_keyword": "rulet nasıl oynanır",
+      "secondary_keywords": [
+        "rulet bahis türleri",
+        "rulet kuralları",
+        "rulet ödeme oranları"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "rulet-martingale",
+      "primary_keyword": "martingale sistemi rulet",
+      "secondary_keywords": [
+        "martingale stratejisi",
+        "bahis ikiye katlama sistemi",
+        "rulet bahis sistemi"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "rulet-fibonacci",
+      "primary_keyword": "fibonacci rulet stratejisi",
+      "secondary_keywords": [
+        "fibonacci bahis sistemi",
+        "rulet strateji karşılaştırma",
+        "rulet matematiksel sistem"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "rulet-avrupa-amerika",
+      "primary_keyword": "avrupa ruleti amerikan ruleti fark",
+      "secondary_keywords": [
+        "avrupa ruleti house edge",
+        "çift sıfır rulet",
+        "hangi rulet daha iyi"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "rulet-dagilim-analizi",
+      "primary_keyword": "rulet sayıları rastgele mi",
+      "secondary_keywords": [
+        "rulet RNG sistemi",
+        "rulet istatistik analizi",
+        "gambler's fallacy kumar hatası"
+      ],
+      "search_volume_estimate": "düşük",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "poker-texas-holdem-rehber",
+      "primary_keyword": "texas holdem nasıl oynanır",
+      "secondary_keywords": [
+        "poker el sıralaması",
+        "texas holdem kuralları",
+        "poker başlangıç rehberi"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "poker-pozisyon-avantaji",
+      "primary_keyword": "poker pozisyon avantajı",
+      "secondary_keywords": [
+        "late position poker",
+        "button avantajı poker",
+        "poker masada yer seçimi"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "poker-blof-teknikleri",
+      "primary_keyword": "poker blöf nasıl yapılır",
+      "secondary_keywords": [
+        "yarı blöf poker",
+        "blöf yakalamak poker",
+        "poker psikolojisi"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "poker-pot-odds",
+      "primary_keyword": "poker pot odds hesaplama",
+      "secondary_keywords": [
+        "implied odds poker",
+        "poker outs hesaplama",
+        "poker matematiği"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "poker-turnuva-strateji",
+      "primary_keyword": "poker turnuva stratejisi",
+      "secondary_keywords": [
+        "MTT poker strateji",
+        "ICM poker nedir",
+        "poker turnuva stack yönetimi"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "bakara-temel-rehber",
+      "primary_keyword": "bakara nasıl oynanır",
+      "secondary_keywords": [
+        "bakara kuralları",
+        "bakara el değerleri",
+        "bakara bahis seçenekleri"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "bakara-banker-player",
+      "primary_keyword": "bakara banker player farkı",
+      "secondary_keywords": [
+        "bakara hangi bahis daha iyi",
+        "bakara ev avantajı karşılaştırma",
+        "bakara strateji matematiksel"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "bakara-yol-takibi",
+      "primary_keyword": "bakara yol takibi road map",
+      "secondary_keywords": [
+        "bakara big road nedir",
+        "bakara bead plate",
+        "bakara skorboard okuma"
+      ],
+      "search_volume_estimate": "düşük",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "bakara-komisyon",
+      "primary_keyword": "bakara komisyon sistemi",
+      "secondary_keywords": [
+        "komisyonsuz bakara",
+        "bakara vigorish nedir",
+        "no commission baccarat"
+      ],
+      "search_volume_estimate": "düşük",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "bakara-mini-midi",
+      "primary_keyword": "mini bakara midi bakara fark",
+      "secondary_keywords": [
+        "mini bakara kuralları",
+        "bakara varyantları",
+        "bakara masa boyutu limitleri"
+      ],
+      "search_volume_estimate": "düşük",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "slot-rtp-rehberi",
+      "primary_keyword": "slot RTP nedir",
+      "secondary_keywords": [
+        "geri ödeme oranı slot",
+        "slot rtp hesaplama",
+        "hangi slot rtp yüksek"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "slot-volatilite",
+      "primary_keyword": "slot volatilite nedir",
+      "secondary_keywords": [
+        "düşük varyans slot",
+        "yüksek varyans slot",
+        "slot varyans farkı"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "slot-bonus-turleri",
+      "primary_keyword": "slot bonus özellikleri",
+      "secondary_keywords": [
+        "free spin nedir slot",
+        "slot multiplier wild scatter",
+        "slot bonus round nasıl tetiklenir"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "slot-makinesi-secimi",
+      "primary_keyword": "doğru slot makinesi seçimi",
+      "secondary_keywords": [
+        "slot nasıl seçilir",
+        "slot makinesi karşılaştırma",
+        "en iyi slot makinesi kriterleri"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "slot-progressive-jackpot",
+      "primary_keyword": "progressive jackpot slot nasıl çalışır",
+      "secondary_keywords": [
+        "progressive jackpot kazanma şansı",
+        "jackpot slot rtp etkisi",
+        "büyük jackpot slotları"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "bankroll-yonetimi",
+      "primary_keyword": "casino bankroll yönetimi",
+      "secondary_keywords": [
+        "casino bütçe kontrolü",
+        "kumar para yönetimi",
+        "casino kayıp limiti belirleme"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "casino-matematik",
+      "primary_keyword": "casino house edge nedir",
+      "secondary_keywords": [
+        "casino beklenen değer EV",
+        "casino matematiği olasılık",
+        "casino ev avantajı hesaplama"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "sorumlu-oyun",
+      "primary_keyword": "sorumlu kumar oynama",
+      "secondary_keywords": [
+        "kumar bağımlılığı belirtileri",
+        "casino limit belirleme",
+        "kumar yardım kaynakları"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "canli-casino-rehber",
+      "primary_keyword": "canlı casino nasıl oynanır",
+      "secondary_keywords": [
+        "live dealer casino",
+        "online casino fiziksel casino fark",
+        "canlı krupiye oyunları"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    },
+    {
+      "slug": "casino-bonuslari",
+      "primary_keyword": "casino bonusları nasıl çalışır",
+      "secondary_keywords": [
+        "casino çevrim şartı nedir",
+        "hoş geldin bonusu casino",
+        "freespin bonus casino"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "yüksek"
+    }
+  ]
+}

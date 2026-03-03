@@ -1,0 +1,150 @@
+---
+title: "Blackjack Kart Sayma Teknikleri: Hi-Lo Sistemi"
+description: "Blackjack kart sayma nedir, nasıl çalışır? Hi-Lo sistemi adım adım anlatıldı. True count, running count ve pratikte uygulama rehberi."
+slug: "blackjack-kart-sayma"
+date: "2026-03-03"
+category: "blackjack"
+tags: ["blackjack", "kart sayma", "hi-lo sistemi", "advanced strateji"]
+author: "Poolytech Editör"
+readTime: "11 dk"
+featured: false
+---
+
+# Blackjack Kart Sayma Teknikleri: Hi-Lo Sistemi
+
+Blackjack tarihinde kart sayma, oyunun seyrini dramatik biçimde değiştiren bir keşif olarak yer almaktadır. 1962 yılında matematikçi Edward Thorp "Beat the Dealer" adlı kitabında kart saymanın teorik temellerini kamuoyuyla paylaştığında, casino endüstrisi büyük bir sarsıntı geçirdi. O günden bu yana kart sayma, hem efsane hem de yanlış anlaşılan bir kavram olarak kalmaktadır.
+
+Bu makalede kart saymanın ne olduğunu, nasıl çalıştığını ve en yaygın sistem olan Hi-Lo'yu adım adım öğreneceksiniz. Kart saymanın sihirli bir kazanç formülü olmadığını; matematiksel bir bilgi yönetimi tekniği olduğunu anlayacak ve bunu uygulamak için gereken zihinsel disiplini kavrayacaksınız.
+
+---
+
+## Kart Sayma Nedir ve Neden İşe Yarar?
+
+### Temel Mantık
+
+Standart bir blackjack oyununda krupiye belirli kurallara uymak zorundadır (genellikle 16'da hit, 17'de stand). Oyuncu ise her elde kendi kararını serbestçe verir. Bu asimetri, elverişli koşullar oluştuğunda oyuncuya avantaj sağlayabilir.
+
+Kart sayma, destede kalan kartların oyuncu lehine mi yoksa aleyhine mi olduğunu tahmin etmeye yarar. Temel mantık şudur:
+
+- **Yüksek kartlar (10, J, Q, K, As)** oyuncu lehine çalışır: doğal blackjack ihtimalini artırır, double down için elverişli ortam yaratır ve krupiyenin bust olma olasılığını yükseltir.
+- **Düşük kartlar (2–6)** krupiye lehine çalışır: krupiyenin zayıf ellerini kurtarma ihtimali artar.
+
+Eğer destede orantısız biçimde yüksek kart kalmışsa, oyuncu bahsini artırmalıdır. Düşük kartlar hâkimse, bahsi minimize etmek matematiksel açıdan daha akıllıca olur.
+
+### Kart Sayma "Hile" Midir?
+
+Hayır. Kart sayma, hafızayı ve matematiksel muhakemeyi kullanan yasal bir tekniktir. Kart sayıcılar herhangi bir cihaz kullanmaz, kartlara dokunmaz ya da başkalarıyla koordinasyon kurmaz (en basit formda). Casino'lar bu tekniği hoş karşılamazlar ve kart sayıcıları masadan kaldırabilirler; ancak bu, tekniğin yasadışı olduğu anlamına gelmez.
+
+---
+
+## Hi-Lo Sistemi: Adım Adım Öğrenin
+
+Hi-Lo, 1963'te Harvey Dubner tarafından geliştirilen ve bugün en yaygın kullanılan kart sayma sistemidir. "Dengeli" bir sistemdir: tam bir destede tüm kartlar sayıldığında toplam sıfıra ulaşır.
+
+### Kart Değerleri
+
+| Kart | Hi-Lo Değeri |
+|------|-------------|
+| 2, 3, 4, 5, 6 | +1 |
+| 7, 8, 9 | 0 |
+| 10, J, Q, K, As | -1 |
+
+Bu sistemi anlamak basittir:
+- Düşük bir kart (2–6) masaya düşünce sayacınıza **+1** eklersiniz (bu kart desteden çıktı, kalan destede yüksek kart oranı arttı).
+- Yüksek bir kart (10–As) masaya düşünce sayacınızdan **-1** çıkarırsınız.
+- 7, 8, 9 nötr karttır; sayacı etkilemez.
+
+### Running Count (Anlık Sayım)
+
+Deste açıldığından bu yana tuttuğunuz kümülatif sayıma "running count" denir. Örnek bir seri:
+
+| Açılan Kart | Değer | Running Count |
+|-------------|-------|--------------|
+| 5 | +1 | +1 |
+| K | -1 | 0 |
+| 3 | +1 | +1 |
+| 9 | 0 | +1 |
+| As | -1 | 0 |
+| 6 | +1 | +1 |
+| 2 | +1 | +2 |
+
+Running count +2 ise destede orantısal olarak yüksek kart fazlası olduğu anlamına gelir.
+
+### True Count (Gerçek Sayım)
+
+Çok desteli oyunlarda running count yanıltıcı olabilir. 6 desteli bir oyunda running count +6 ise bu, tek desteli bir oyundaki +6'ya kıyasla çok daha az etkilidir. Bu sorunu çözmek için "true count" hesaplanır:
+
+**True Count = Running Count ÷ Kalan Deste Sayısı**
+
+Örneğin: Running count +8, kalan deste yaklaşık 4 ise true count = **+2**
+
+Kalan deste sayısını tahmin etmek pratik gerektirir: kasette ya da ayakkabıda kalan kart yüksekliğine bakarak yaklaşık değer belirlenir.
+
+### Bahis Yönetimi: True Count'u Kullanmak
+
+Kart saymanın amacı yalnızca bilmek değil; bu bilgiyi bahis kararlarına yansıtmaktır.
+
+| True Count | Önerilen Bahis Çarpanı |
+|------------|----------------------|
+| 0 veya altı | 1x (minimum bahis) |
+| +1 | 1x |
+| +2 | 2x |
+| +3 | 3x |
+| +4 | 4x |
+| +5 ve üzeri | 5x veya daha fazla |
+
+Bu "bet spread" olarak adlandırılır. Kart saymanın oyuncuya sağladığı matematiksel avantaj, yüksek true count'ta daha büyük bahisler oynamaktan gelir.
+
+### Her True Count Puanı Ne Kadar Avantaj Sağlar?
+
+Standart 6 desteli bir masada, her +1 true count yaklaşık **%0,5 oranında** oyuncu lehine avantaj sağlar. Temel stratejinin house edge'i (%0,5) ile birleştirildiğinde:
+
+- True count 0: ~%0,5 house edge (casino lehine)
+- True count +1: ~0% (neredeyse dengeli)
+- True count +2: ~%0,5 oyuncu lehine
+- True count +3: ~%1 oyuncu lehine
+
+Bu avantajlar küçük görünebilir; ama uzun vadede binlerce el boyunca biriktiğinde anlamlı bir fark yaratır.
+
+---
+
+## Pratik Uygulama İpuçları
+
+Kart sayma teoride basit görünse de casino ortamında uygulamak ciddi pratik gerektirir. İşte başlamak için adımlar:
+
+1. **Önce temel stratejiyi mükemmelleştirin.** Kart sayma, temel stratejinin üzerine inşa edilir. Temel stratejiyi otomatikleştirmeden kart saymaya geçmeyin.
+2. **Ev ortamında tek desteli pratik yapın.** Tüm desteyi açık hızda sayın; sıfıra ulaşmanız gerekir.
+3. **Hızınızı artırın.** Casino hızında kart dağıtımı dakikada 60–80 kart anlamına gelebilir. Sayımı bu tempoda tutabilmek pratik gerektirir.
+4. **Dikkat dağıtıcılara karşı direnç kazanın.** Müzik, konuşmalar ve krupiye baskısı altında sayımı sürdürebilmek için gürültülü ortamlarda pratik yapın.
+5. **Bahis yayılımınızı doğal gösterin.** Ani bahis artışları casino dikkatini çeker. Gradual bir spread daha az göze çarpar.
+6. **Online RNG (Rastgele Sayı Üretici) oyunlarda kart sayma işe yaramaz.** Her elde deste yeniden karıştırılır. Kart sayma yalnızca gerçek kartlarla oynanan oyunlarda geçerlidir.
+7. **Kayıp limitinizi net belirleyin.** True count ne kadar yüksek olursa olsun, kısa vadeli varyans büyük kayıplara yol açabilir.
+
+---
+
+## Sık Sorulan Sorular
+
+**Kart sayma gerçekten işe yarıyor mu?**
+Matematiksel olarak, doğru uygulandığında küçük bir oyuncu avantajı sağlar. Ancak bu avantaj %0,5–1,5 gibi ince bir bandda kalır ve yalnızca çok sayıda el boyunca istatistiksel olarak anlamlı hale gelir. Kısa oturumlarda sonuç tamamen varyansa bağlıdır.
+
+**Kart sayma ne kadar sürede öğrenilir?**
+Hi-Lo değerlerini ezberlemek birkaç saatte mümkündür. Casino hızında hatasız sayabilmek için ise genellikle haftalarca düzenli pratik gerekir.
+
+**Casino beni nasıl tespit eder?**
+Büyük bahis artışları (özellikle ayakkabının sonuna yakın), sürekli krupiyeye bakma ve düşük true count'ta küçük bahis oynama kalıpları dikkat çeker. Casino'ların eğitimli gözetleme personeli ve AI destekli kamera sistemleri vardır.
+
+**Kart saymayı öğrenmek kârlı bir aktivite midir?**
+Profesyonel kart sayıcılar için teorik olarak mümkündür. Ancak günümüzde casino'ların çok desteli oyunlar kullanması, sık kesme (shuffle) yapması ve gözetleme teknolojileri, kârlı kart saymanın pratikte son derece zorlu olduğunu göstermektedir.
+
+**Mobil uygulamalar ve yazılımlar öğrenmeme yardımcı olur mu?**
+Evet. "Card Counter", "Blackjack Apprenticeship" ve benzeri uygulamalar sayım hızı ve doğruluğunu geliştirmek için kullanışlıdır.
+
+---
+
+## Sonuç
+
+Hi-Lo kart sayma sistemi, blackjack'i matematiksel bir bilgi oyununa dönüştüren zarif bir tekniktir. Temel mantığı öğrenmek görece kolaydır; ama casino ortamında tutarlı ve hızlı biçimde uygulamak ciddi disiplin ve pratik gerektirir. Kart sayma bir mucize değildir — küçük, istatistiksel bir avantaj sağlar ve bu avantajın sonuçlara yansıması zaman alır.
+
+Eğer blackjack'i daha derin anlamak istiyorsanız, Hi-Lo en iyi başlangıç noktasıdır. Pratik yapın, sabırlı olun ve her zaman bütçenizin sınırları içinde oynayın.
+
+> **Sorumluluk Reddi:** Bu makale yalnızca eğitim amaçlıdır. Kumar bağımlılık yapabilir. Lütfen sorumlu oynayın ve kaybetmeyi göze alabileceğinizden fazlasını riske atmayın.

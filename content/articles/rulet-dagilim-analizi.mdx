@@ -1,0 +1,204 @@
+---
+title: "Rulet Dağılım Analizi: Sayılar Gerçekten Rastgele mi?"
+description: "Rulet sayıları gerçekten rastgele mi? Olasılık teorisi, büyük sayılar yasası, RNG sistemleri ve gerçek tekerlek önyargısı analiziyle rulet rastgeleliğini inceleyin."
+slug: "rulet-dagilim-analizi"
+date: "2026-03-03"
+author: "Poolytech Editörü"
+category: "rulet"
+tags: ["rulet rastgelelik", "dağılım analizi", "olasılık teorisi", "RNG", "büyük sayılar yasası"]
+image: "/images/rulet-dagilim-analizi.jpg"
+featured: false
+readingTime: 10
+---
+
+# Rulet Dağılım Analizi: Sayılar Gerçekten Rastgele mi?
+
+## Giriş
+
+Rulet masasının kenarında duran ekranlarda geçmiş 20-30 turun sonuçları gösterilir: "Son 10 turda 7 kez kırmızı çıktı." Birçok oyuncu bu bilgiyi stratejik rehber olarak kullanmaya çalışır. "Siyah gelmesi lazım, denge bozulmuş" düşüncesiyle bahis yapar. Peki bu mantık matematiksel açıdan geçerli midir?
+
+Bu makalede rulet sayılarının gerçekten rastgele olup olmadığını derinlemesine inceleyeceğiz. Olasılık teorisinin temel kavramlarını, büyük sayılar yasasını, Kumar Hatasını (Gambler's Fallacy), fiziksel tekerlek sistemlerinin gerçek performansını ve online casino RNG (Rastgele Sayı Üreteci) sistemlerini ele alacağız. Spoiler: Rulet sayıları istatistiksel olarak bağımsızdır; geçmiş sonuçlar gelecek turları etkilemez. Ama bu basit cümlenin arkasında son derece zengin bir matematik yatmaktadır.
+
+---
+
+## Olasılık Teorisinin Temeli: Bağımsız Olaylar
+
+### Bağımsızlık Kavramı
+
+Olasılık teorisinde iki olay birbirinden bağımsızdır eğer birinin gerçekleşmesi diğerinin gerçekleşme olasılığını etkilemiyorsa. Rulet turları bu tanımın mükemmel örneğidir.
+
+Avrupa ruletinde kırmızı çıkma olasılığı her turda aynıdır: **18/37 ≈ %48,65**
+
+Bu olasılık değişmez:
+- Önceki 10 turda kırmızı çıkmış olsa da
+- Önceki 10 turda siyah çıkmış olsa da
+- Sabahın 3'ü olsa da
+- Masanın "şanssız" masa olduğu söylense de
+
+Tekerlek ve top her turda hafızasız başlar. Fiziksel açıdan bakıldığında bu son derece mantıklıdır: Metal ve plastikten oluşan bir tekerleğin önceki sonuçları "hatırlaması" fiziksel olarak imkânsızdır.
+
+### Matematiksel İspat
+
+P(Kırmızı | Önceki 10 tur siyah) = P(Kırmızı) = 18/37
+
+Koşullu olasılık (conditional probability) teoremi, bağımsız olaylar için P(A|B) = P(A) ilişkisini kanıtlar. Rulet turlarında bu ilişki geçerlidir.
+
+---
+
+## Kumar Hatası (Gambler's Fallacy): En Tehlikeli Yanılgı
+
+### Tanım
+
+Kumar Hatası; geçmiş bağımsız olayların gelecekteki bağımsız olayları etkilediğine olan yanlış inançtır. "10 kez üst üste kırmızı geldi, sırada siyah var" düşüncesi bu hatanın klasik örneğidir.
+
+### Tarihsel Vaka: Monte Carlo 1913
+
+Tarihte en ünlü Kumar Hatası vakası 18 Ağustos 1913'te Monte Carlo Casino'da yaşandı. Rulet masasında arka arkaya 26 kez siyah çıktı. Her siyahtan sonra oyuncular gitgide artan miktarlarda kırmızıya bahis yaptı; "denge mutlaka düzelecek" düşüncesiyle. Sonuç: Oyuncular milyonlarca frank kaybetti. 26. siyahın ardından kırmızı çıkma olasılığı hâlâ %48,65'ti; bir önceki turdan ne fazla ne az.
+
+### İki Farklı Boyut
+
+Kumar Hatası iki şekilde ortaya çıkabilir:
+
+**Negatif kumar hatası** (klasik): "Çok siyah çıktı, sırada kırmızı var." Serilerin dengeye döneceğini beklemek.
+
+**Pozitif kumar hatası (Hot Hand Fallacy)**: "Rulet 'kırmızı geliyor', seri devam edecek." Serilerin süreceğini beklemek.
+
+Her iki durumda da yanılgı aynıdır: Bağımsız olaylar arasında nedensellik ilişkisi varsaymak.
+
+### Neden Bu Yanılgıya Düşüyoruz?
+
+İnsan beyninin örüntü arama (pattern recognition) eğilimi evrimsel bir avantajdır. Doğada örüntüler önemli bilgiler taşır. Ancak gerçekten rastgele sistemlerde bu eğilim bizi yanıltır. Rastgele verilerde bile beynimiz anlam ve örüntü arar.
+
+---
+
+## Büyük Sayılar Yasası: Doğru Anlamak
+
+### Yasanın Gerçek Söylemi
+
+Büyük Sayılar Yasası (Law of Large Numbers), bir olayın gerçekleşme sıklığının deney sayısı arttıkça teorik olasılığa yaklaştığını söyler.
+
+Önemli nüans: Bu yasa **ortalamaya yakınsama** söyler, **toplam farka telafi** demez.
+
+Yanlış anlama: "100 turda 60 kırmızı çıktı (10 fazla). Sonraki 100 turda 40 kırmızı çıkacak ki dengelensin."
+
+Doğru anlama: "1.000.000 turda kırmızı çıkma oranı %48,65'e yaklaşır. Başlangıçtaki 10'luk fazlalık toplamda anlamsız kalır ama 'telafi edilmez'."
+
+### Matematiksel Gösterim
+
+n tur sonra kırmızı sayısı K olsun.
+Büyük Sayılar Yasası: K/n → 18/37 (n → ∞ için)
+
+Fark (K - n×18/37): Bu değer mutlak olarak büyüyebilir ama oran olarak küçülür.
+
+100 turda 10 fazla kırmızı varsa: Mutlak fark = 10, oran farkı = %10
+1.000.000 turda aynı 10 fazla kalırsa: Mutlak fark = 10, oran farkı = %0,001
+
+Yasa, mutlak farkın sıfıra döneceğini söylemez; oran farkının sıfıra yaklaştığını söyler.
+
+---
+
+## Fiziksel Tekerlek: Gerçekten Mükemmel mi?
+
+### Tekerlek Önyargısı (Wheel Bias)
+
+Gerçek fiziksel rulet tekerleği teoride mükemmel rastgele bir sistem değildir. Küçük mekanik kusurlar zaman içinde belirli ceplerin daha sık çıkmasına yol açabilir:
+
+- Aşınmış cep bölücüler (frets)
+- Hafif eğim (leveling sorunları)
+- Dönen kase (stator) deformasyonu
+- Topun aşınması
+
+Bu "tekerlek önyargısı" gerçek ve istismar edilebilir bir fenomendir. 20. yüzyılda bazı profesyonel oyuncular (en ünlüsü Gonzalo Garcia-Pelayo) belirli tekerlek önyargılarını binlerce veri noktası toplayarak tespit etmiş ve bu bilgiyi kazanç sağlamak için kullanmıştır.
+
+### Modern Kumarhanelerin Önlemleri
+
+Günümüz kumarhaneleri bu açıktan haberdardır:
+- Tekerlekler düzenli olarak kontrol edilir ve kalibre edilir
+- Elektronik izleme sistemleri anormal dağılımları saptar
+- Tekerlekler periyodik olarak değiştirilir veya rotasyona sokulur
+- Tekerlek yönü periyodik olarak değiştirilir
+
+Sonuç: Modern, iyi bakımlı tekerleğe karşı önyargı stratejisi uygulamak son derece zordur. Binlerce kayıt gerektiren, titiz bir analiz süreci şarttır.
+
+### Dağılım Analizi: Ne Kadar Veri Gerekir?
+
+Bir tekerleğin adil (uniform) dağılımdan saptığını istatistiksel olarak kanıtlamak için ne kadar veri gerekir?
+
+Chi-squared (Ki-kare) testi ile:
+- 37 sayılı Avrupa tekerleği için anlamlı sapma tespiti: minimum **5.000-10.000 tur**
+- Güvenilir sonuç için: **50.000+ tur**
+
+Bir masada 40 tur/saat hızıyla bu veriye ulaşmak 125-250 saat (kasada saatler!) gerektirir. Hem pratik olmayan hem de kumarhanenin tolerans sınırlarını zorlayan bir süreç.
+
+---
+
+## Online Casino ve RNG Sistemleri
+
+### RNG Nedir?
+
+Online casinolarda fiziksel tekerlek yoktur. Bunun yerine **Rastgele Sayı Üreteci (Random Number Generator — RNG)** kullanılır.
+
+İki tür RNG mevcuttur:
+
+**PRNG (Pseudo-Random Number Generator):** Matematiksel algoritmalar kullanır. "Tohum" (seed) değerinden başlayarak deterministik ama son derece karmaşık diziler üretir. Doğru uygulandığında istatistiksel olarak gerçek rastgelelikten ayırt edilemez.
+
+**TRNG (True Random Number Generator):** Atmosferik gürültü, radyoaktif bozunma gibi fiziksel entropi kaynaklarından yararlanır. Teorik olarak tam rastgeledir.
+
+Lisanslı online casinolar PRNG kullanır ve bu sistemler bağımsız denetim kuruluşları tarafından (eCOGRA, iTech Labs, GLI) düzenli olarak test edilir.
+
+### RNG Adil mi?
+
+Lisanslı ve düzenlenmiş platformlarda: Evet, test edilmiş ve onaylanmış RNG sistemleri gerçek tekerleğe eşdeğer rastgelelik sağlar. House edge aynı şekilde işler.
+
+Lisanssız veya düzensiz platformlarda: Doğrulama imkânsızdır. Bu platformlardan kaçının.
+
+### Canlı Krupiyeli Rulet
+
+Canlı krupiyeli ruletler gerçek fiziksel tekerlek kullanır ve kamera aracılığıyla yayınlanır. RNG söz konusu değildir. Modern, iyi kalibre edilmiş tekerlekler kullanılır. House edge aynı şekilde geçerlidir.
+
+---
+
+## Pratik İpuçları
+
+Dağılım analizi ve rastgelelik kavramını günlük rulet oyununa uygularken dikkat edin:
+
+1. **"Sıcak" ve "soğuk" sayı kavramlarına itibar etmeyin.** Casino ekranlarındaki geçmiş sonuçlar istatistiksel olarak anlamsızdır. Her tur bağımsızdır.
+
+2. **Kısa vadeli varyasyon normaldir.** 100 turda kırmızının 60 kez çıkması mümkün ve oldukça normal. Bu denge bozulmaz, bu normaldir.
+
+3. **Büyük Sayılar Yasası'nı yanlış anlamayın.** Telafi beklemek Kumar Hatasıdır. Yasa uzun vadede orana yakınsama söyler, kısa vadeli "telafi" garantisi vermez.
+
+4. **Online oynarken lisans bilgisini kontrol edin.** Malta Gaming Authority, UK Gambling Commission veya benzeri otoriteler tarafından lisanslı platformları tercih edin. Bu lisanslar RNG denetimini zorunlu kılar.
+
+5. **Canlı krupiyeli masaları tercih edebilirsiniz.** Gerçek tekerlek şeffaflığı sunması bakımından bazı oyuncuların tercih ettiği bir format. Matematiksel fark yoktur.
+
+6. **Kendi dağılım verisi toplamak zaman kaybıdır.** Modern tekerlek önyargıları tespit edilmeden düzeltilir. Binlerce tur kayıt tutmak pratik değildir.
+
+---
+
+## Sık Sorulan Sorular
+
+**Casino ekranındaki "son çıkan sayılar" bilgisi neye yarar?**
+Matematiksel açıdan hiçbir işe yaramaz; her tur bağımsızdır. Kumarhaneler bu ekranları oyuncuların Kumar Hatasına düşmesini kolaylaştırmak için sunar (ironik ama doğru). Strateji aracı olarak kullanmayın.
+
+**"Bir sayı uzun süredir çıkmadıysa yakında çıkar" doğru mu?**
+Hayır. Bu Kumar Hatasının klasik örneğidir. Her turda her sayının çıkma olasılığı 1/37 (Avrupa) olarak sabittir.
+
+**Online rulet mi, gerçek tekerlek mi daha adil?**
+İkisi de lisanslı platformlarda adil ve denetlenmiş sistemler kullanır. RNG bazlı online rulet ve canlı krupiyeli rulet arasında matematiksel adalet açısından fark yoktur.
+
+**Tekerlek önyargısını nasıl tespit edebilirim?**
+En az 5.000-10.000 tur veri toplamanız, Chi-squared testi uygulamanız gerekir. Günümüz kumarhanelerinde tekerlekler bu süre içinde kalibre edilir. Pratikte tespit ve kullanım neredeyse imkânsızdır.
+
+**RNG sistemlerine güvenilir mi?**
+Lisanslı platformların RNG sistemleri bağımsız denetim firmalarınca düzenli test edilir. Bu sertifikalara sahip platformlar için evet, güvenilirdir. Lisanssız platformlar için doğrulama imkânı yoktur.
+
+---
+
+## Sonuç
+
+Rulet sayıları gerçekten rastgeledir — ya da en azından, rastgeleliğe çok yakın davranacak şekilde tasarlanmış ve denetlenmiş sistemlerce üretilir. Her tur bağımsızdır, geçmiş sonuçlar geleceği etkilemez ve büyük sayılar yasası kısa vadeli telafi garantisi vermez. Kumar Hatasına düşmek, rulet masasında en sık yapılan ve en maliyetli hatalardan biridir. Oynadığınız her turda olasılık matematiksel olarak değişmez; stratejinizi bu gerçek üzerine kurun, kasanın size sunduğu hayali pattern'lara göre değil.
+
+---
+
+> **Sorumluluk Reddi:** Bu makale yalnızca eğitim amaçlıdır. Kumar bağımlılık yapabilir. Lütfen sorumlu oynayın ve kaybetmeyi göze alabileceğinizden fazlasını riske atmayın.

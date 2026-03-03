@@ -1,0 +1,703 @@
+{
+  "generated": "2026-03-03",
+  "articles": [
+    {
+      "slug": "blackjack-temel-strateji",
+      "related_articles": [
+        {
+          "slug": "blackjack-kart-sayma",
+          "anchor_text": "Blackjack Kart Sayma Teknikleri"
+        },
+        {
+          "slug": "blackjack-soft-hand",
+          "anchor_text": "Soft Hand Stratejisi"
+        },
+        {
+          "slug": "blackjack-masa-secimi",
+          "anchor_text": "Doğru Blackjack Masasını Seçme"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge ve Casino Matematiği"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Casino Bankroll Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "blackjack-kart-sayma",
+      "related_articles": [
+        {
+          "slug": "blackjack-temel-strateji",
+          "anchor_text": "Blackjack Temel Strateji Rehberi"
+        },
+        {
+          "slug": "blackjack-soft-hand",
+          "anchor_text": "Soft Hand Stratejisi"
+        },
+        {
+          "slug": "blackjack-masa-secimi",
+          "anchor_text": "Doğru Blackjack Masasını Seçme"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği: House Edge"
+        }
+      ]
+    },
+    {
+      "slug": "blackjack-soft-hand",
+      "related_articles": [
+        {
+          "slug": "blackjack-temel-strateji",
+          "anchor_text": "Blackjack Temel Strateji"
+        },
+        {
+          "slug": "blackjack-sigorta-bahsi",
+          "anchor_text": "Sigorta Bahsi Rehberi"
+        },
+        {
+          "slug": "blackjack-kart-sayma",
+          "anchor_text": "Kart Sayma Teknikleri"
+        },
+        {
+          "slug": "blackjack-masa-secimi",
+          "anchor_text": "Doğru Masayı Seçme"
+        }
+      ]
+    },
+    {
+      "slug": "blackjack-sigorta-bahsi",
+      "related_articles": [
+        {
+          "slug": "blackjack-temel-strateji",
+          "anchor_text": "Blackjack Temel Strateji"
+        },
+        {
+          "slug": "blackjack-masa-secimi",
+          "anchor_text": "Doğru Masa Seçimi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge ve Beklenen Değer"
+        },
+        {
+          "slug": "blackjack-soft-hand",
+          "anchor_text": "Soft Hand Stratejisi"
+        }
+      ]
+    },
+    {
+      "slug": "blackjack-masa-secimi",
+      "related_articles": [
+        {
+          "slug": "blackjack-temel-strateji",
+          "anchor_text": "Blackjack Temel Strateji Rehberi"
+        },
+        {
+          "slug": "blackjack-kart-sayma",
+          "anchor_text": "Kart Sayma Teknikleri"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği"
+        },
+        {
+          "slug": "canli-casino-rehber",
+          "anchor_text": "Canlı Casino Rehberi"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "rulet-temel-rehber",
+      "related_articles": [
+        {
+          "slug": "rulet-martingale",
+          "anchor_text": "Martingale Sistemi"
+        },
+        {
+          "slug": "rulet-avrupa-amerika",
+          "anchor_text": "Avrupa vs Amerikan Rulet"
+        },
+        {
+          "slug": "rulet-fibonacci",
+          "anchor_text": "Fibonacci Rulet Stratejisi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge Nedir"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "rulet-martingale",
+      "related_articles": [
+        {
+          "slug": "rulet-temel-rehber",
+          "anchor_text": "Rulet Temel Rehberi"
+        },
+        {
+          "slug": "rulet-fibonacci",
+          "anchor_text": "Fibonacci Stratejisi"
+        },
+        {
+          "slug": "rulet-avrupa-amerika",
+          "anchor_text": "Avrupa vs Amerikan Rulet"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği ve House Edge"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "rulet-fibonacci",
+      "related_articles": [
+        {
+          "slug": "rulet-martingale",
+          "anchor_text": "Martingale Sistemi ile Karşılaştırma"
+        },
+        {
+          "slug": "rulet-temel-rehber",
+          "anchor_text": "Rulet Temel Rehberi"
+        },
+        {
+          "slug": "rulet-avrupa-amerika",
+          "anchor_text": "Avrupa vs Amerikan Rulet"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği"
+        }
+      ]
+    },
+    {
+      "slug": "rulet-avrupa-amerika",
+      "related_articles": [
+        {
+          "slug": "rulet-temel-rehber",
+          "anchor_text": "Rulet Temel Rehberi"
+        },
+        {
+          "slug": "rulet-dagilim-analizi",
+          "anchor_text": "Rulet Dağılım Analizi"
+        },
+        {
+          "slug": "rulet-martingale",
+          "anchor_text": "Martingale Stratejisi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge Hesaplama"
+        },
+        {
+          "slug": "canli-casino-rehber",
+          "anchor_text": "Canlı Casino Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "rulet-dagilim-analizi",
+      "related_articles": [
+        {
+          "slug": "rulet-temel-rehber",
+          "anchor_text": "Rulet Temel Rehberi"
+        },
+        {
+          "slug": "rulet-avrupa-amerika",
+          "anchor_text": "Avrupa vs Amerikan Rulet"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği"
+        },
+        {
+          "slug": "rulet-martingale",
+          "anchor_text": "Martingale ve Matematiksel Gerçekler"
+        }
+      ]
+    },
+    {
+      "slug": "poker-texas-holdem-rehber",
+      "related_articles": [
+        {
+          "slug": "poker-pozisyon-avantaji",
+          "anchor_text": "Pozisyon Avantajı"
+        },
+        {
+          "slug": "poker-blof-teknikleri",
+          "anchor_text": "Blöf Teknikleri"
+        },
+        {
+          "slug": "poker-pot-odds",
+          "anchor_text": "Pot Odds Hesaplama"
+        },
+        {
+          "slug": "poker-turnuva-strateji",
+          "anchor_text": "Turnuva Stratejisi"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "poker-pozisyon-avantaji",
+      "related_articles": [
+        {
+          "slug": "poker-texas-holdem-rehber",
+          "anchor_text": "Texas Hold'em Temel Rehberi"
+        },
+        {
+          "slug": "poker-blof-teknikleri",
+          "anchor_text": "Blöf Teknikleri"
+        },
+        {
+          "slug": "poker-pot-odds",
+          "anchor_text": "Pot Odds ve Implied Odds"
+        },
+        {
+          "slug": "poker-turnuva-strateji",
+          "anchor_text": "Turnuva Stratejisi"
+        }
+      ]
+    },
+    {
+      "slug": "poker-blof-teknikleri",
+      "related_articles": [
+        {
+          "slug": "poker-texas-holdem-rehber",
+          "anchor_text": "Texas Hold'em Rehberi"
+        },
+        {
+          "slug": "poker-pozisyon-avantaji",
+          "anchor_text": "Pozisyon Avantajı"
+        },
+        {
+          "slug": "poker-pot-odds",
+          "anchor_text": "Pot Odds Hesaplama"
+        },
+        {
+          "slug": "poker-turnuva-strateji",
+          "anchor_text": "Turnuva Stratejisi"
+        }
+      ]
+    },
+    {
+      "slug": "poker-pot-odds",
+      "related_articles": [
+        {
+          "slug": "poker-texas-holdem-rehber",
+          "anchor_text": "Texas Hold'em Temel Rehberi"
+        },
+        {
+          "slug": "poker-pozisyon-avantaji",
+          "anchor_text": "Pozisyon Avantajı"
+        },
+        {
+          "slug": "poker-blof-teknikleri",
+          "anchor_text": "Blöf Teknikleri"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Beklenen Değer Hesaplama"
+        },
+        {
+          "slug": "poker-turnuva-strateji",
+          "anchor_text": "Turnuva Stratejisi"
+        }
+      ]
+    },
+    {
+      "slug": "poker-turnuva-strateji",
+      "related_articles": [
+        {
+          "slug": "poker-texas-holdem-rehber",
+          "anchor_text": "Texas Hold'em Temel Rehberi"
+        },
+        {
+          "slug": "poker-pozisyon-avantaji",
+          "anchor_text": "Pozisyon Avantajı"
+        },
+        {
+          "slug": "poker-pot-odds",
+          "anchor_text": "Pot Odds ve ICM İlişkisi"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        },
+        {
+          "slug": "poker-blof-teknikleri",
+          "anchor_text": "Blöf Teknikleri"
+        }
+      ]
+    },
+    {
+      "slug": "bakara-temel-rehber",
+      "related_articles": [
+        {
+          "slug": "bakara-banker-player",
+          "anchor_text": "Banker mı Player mı?"
+        },
+        {
+          "slug": "bakara-komisyon",
+          "anchor_text": "Komisyon Sistemi"
+        },
+        {
+          "slug": "bakara-yol-takibi",
+          "anchor_text": "Yol Takibi Rehberi"
+        },
+        {
+          "slug": "bakara-mini-midi",
+          "anchor_text": "Mini ve Midi Bakara"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği"
+        }
+      ]
+    },
+    {
+      "slug": "bakara-banker-player",
+      "related_articles": [
+        {
+          "slug": "bakara-temel-rehber",
+          "anchor_text": "Bakara Temel Rehberi"
+        },
+        {
+          "slug": "bakara-komisyon",
+          "anchor_text": "Komisyon Sistemi ve Hesaplama"
+        },
+        {
+          "slug": "bakara-yol-takibi",
+          "anchor_text": "Yol Takibi Sistemi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge ve Beklenen Değer"
+        }
+      ]
+    },
+    {
+      "slug": "bakara-yol-takibi",
+      "related_articles": [
+        {
+          "slug": "bakara-temel-rehber",
+          "anchor_text": "Bakara Temel Rehberi"
+        },
+        {
+          "slug": "bakara-banker-player",
+          "anchor_text": "Banker mı Player mı?"
+        },
+        {
+          "slug": "bakara-mini-midi",
+          "anchor_text": "Mini ve Midi Bakara"
+        },
+        {
+          "slug": "rulet-dagilim-analizi",
+          "anchor_text": "Rastgelelik ve Dağılım Analizi"
+        }
+      ]
+    },
+    {
+      "slug": "bakara-komisyon",
+      "related_articles": [
+        {
+          "slug": "bakara-temel-rehber",
+          "anchor_text": "Bakara Temel Rehberi"
+        },
+        {
+          "slug": "bakara-banker-player",
+          "anchor_text": "Banker vs Player Karşılaştırması"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge Hesaplama"
+        },
+        {
+          "slug": "bakara-mini-midi",
+          "anchor_text": "Mini ve Midi Bakara Farkları"
+        }
+      ]
+    },
+    {
+      "slug": "bakara-mini-midi",
+      "related_articles": [
+        {
+          "slug": "bakara-temel-rehber",
+          "anchor_text": "Bakara Temel Rehberi"
+        },
+        {
+          "slug": "bakara-banker-player",
+          "anchor_text": "Banker mı Player mı?"
+        },
+        {
+          "slug": "bakara-komisyon",
+          "anchor_text": "Komisyon Sistemi"
+        },
+        {
+          "slug": "canli-casino-rehber",
+          "anchor_text": "Canlı Casino Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "slot-rtp-rehberi",
+      "related_articles": [
+        {
+          "slug": "slot-volatilite",
+          "anchor_text": "Slot Volatilite Rehberi"
+        },
+        {
+          "slug": "slot-makinesi-secimi",
+          "anchor_text": "Doğru Slot Makinesi Seçimi"
+        },
+        {
+          "slug": "slot-progressive-jackpot",
+          "anchor_text": "Progressive Jackpot ve RTP İlişkisi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge ve Beklenen Değer"
+        },
+        {
+          "slug": "slot-bonus-turleri",
+          "anchor_text": "Slot Bonus Özellikleri"
+        }
+      ]
+    },
+    {
+      "slug": "slot-volatilite",
+      "related_articles": [
+        {
+          "slug": "slot-rtp-rehberi",
+          "anchor_text": "Slot RTP Rehberi"
+        },
+        {
+          "slug": "slot-makinesi-secimi",
+          "anchor_text": "Doğru Slot Makinesi Seçimi"
+        },
+        {
+          "slug": "slot-bonus-turleri",
+          "anchor_text": "Bonus Özellikleri ve Varyans"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "slot-bonus-turleri",
+      "related_articles": [
+        {
+          "slug": "slot-rtp-rehberi",
+          "anchor_text": "Slot RTP ve Bonus Etkisi"
+        },
+        {
+          "slug": "slot-volatilite",
+          "anchor_text": "Volatilite ve Bonus İlişkisi"
+        },
+        {
+          "slug": "slot-makinesi-secimi",
+          "anchor_text": "Doğru Slot Makinesi Seçimi"
+        },
+        {
+          "slug": "casino-bonuslari",
+          "anchor_text": "Casino Bonus Türleri"
+        },
+        {
+          "slug": "slot-progressive-jackpot",
+          "anchor_text": "Progressive Jackpot Slotları"
+        }
+      ]
+    },
+    {
+      "slug": "slot-makinesi-secimi",
+      "related_articles": [
+        {
+          "slug": "slot-rtp-rehberi",
+          "anchor_text": "Slot RTP Rehberi"
+        },
+        {
+          "slug": "slot-volatilite",
+          "anchor_text": "Volatilite Rehberi"
+        },
+        {
+          "slug": "slot-bonus-turleri",
+          "anchor_text": "Bonus Özellikleri"
+        },
+        {
+          "slug": "slot-progressive-jackpot",
+          "anchor_text": "Progressive Jackpot Slotları"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "slot-progressive-jackpot",
+      "related_articles": [
+        {
+          "slug": "slot-rtp-rehberi",
+          "anchor_text": "Slot RTP Rehberi"
+        },
+        {
+          "slug": "slot-makinesi-secimi",
+          "anchor_text": "Doğru Slot Seçimi"
+        },
+        {
+          "slug": "slot-volatilite",
+          "anchor_text": "Yüksek Volatilite ve Jackpot"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Beklenen Değer ve Jackpot Matematiği"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "bankroll-yonetimi",
+      "related_articles": [
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği ve House Edge"
+        },
+        {
+          "slug": "sorumlu-oyun",
+          "anchor_text": "Sorumlu Kumar Rehberi"
+        },
+        {
+          "slug": "blackjack-temel-strateji",
+          "anchor_text": "Blackjack Temel Strateji"
+        },
+        {
+          "slug": "slot-rtp-rehberi",
+          "anchor_text": "Slot RTP Rehberi"
+        },
+        {
+          "slug": "casino-bonuslari",
+          "anchor_text": "Casino Bonusları ve Çevrim Şartları"
+        }
+      ]
+    },
+    {
+      "slug": "casino-matematik",
+      "related_articles": [
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        },
+        {
+          "slug": "blackjack-temel-strateji",
+          "anchor_text": "Blackjack ve House Edge"
+        },
+        {
+          "slug": "rulet-temel-rehber",
+          "anchor_text": "Rulet Matematiği"
+        },
+        {
+          "slug": "slot-rtp-rehberi",
+          "anchor_text": "Slot RTP Rehberi"
+        },
+        {
+          "slug": "sorumlu-oyun",
+          "anchor_text": "Sorumlu Oyun Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "sorumlu-oyun",
+      "related_articles": [
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği"
+        },
+        {
+          "slug": "casino-bonuslari",
+          "anchor_text": "Casino Bonusları ve Tuzaklar"
+        },
+        {
+          "slug": "canli-casino-rehber",
+          "anchor_text": "Canlı Casino Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "canli-casino-rehber",
+      "related_articles": [
+        {
+          "slug": "blackjack-temel-strateji",
+          "anchor_text": "Canlı Blackjack Stratejisi"
+        },
+        {
+          "slug": "rulet-temel-rehber",
+          "anchor_text": "Canlı Rulet Rehberi"
+        },
+        {
+          "slug": "bakara-temel-rehber",
+          "anchor_text": "Canlı Bakara Rehberi"
+        },
+        {
+          "slug": "casino-bonuslari",
+          "anchor_text": "Casino Bonusları"
+        },
+        {
+          "slug": "sorumlu-oyun",
+          "anchor_text": "Sorumlu Kumar Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "casino-bonuslari",
+      "related_articles": [
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge ve Beklenen Değer"
+        },
+        {
+          "slug": "slot-bonus-turleri",
+          "anchor_text": "Slot Bonus Özellikleri"
+        },
+        {
+          "slug": "canli-casino-rehber",
+          "anchor_text": "Canlı Casino Rehberi"
+        },
+        {
+          "slug": "sorumlu-oyun",
+          "anchor_text": "Sorumlu Oyun"
+        }
+      ]
+    }
+  ]
+}

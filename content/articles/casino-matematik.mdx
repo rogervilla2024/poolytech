@@ -1,0 +1,151 @@
+---
+title: "Casino Matematiği: House Edge ve Beklenen Değer"
+description: "House edge nedir, nasıl hesaplanır? Beklenen değer (EV) kavramı ve casino oyunlarının matematiksel gerçekleri hakkında kapsamlı rehber."
+slug: "casino-matematik"
+date: "2026-03-03"
+author: "Poolytech Editör"
+category: "strateji"
+tags: ["house edge", "beklenen değer", "casino matematiği", "RTP", "olasılık"]
+readingTime: 10
+featured: true
+---
+
+# Casino Matematiği: House Edge ve Beklenen Değer
+
+Bir kumarhanede ya da online casino platformunda oynadığınızda, sadece şansınızla değil, matematikle de yarışıyorsunuz. Casinoların kazanmasının temel sebebi kötü şans değil, olasılık teorisinin mükemmel uygulamasıdır. Bu matematiksel gerçekleri anlamak, hem daha bilinçli oyun kararları vermenizi sağlar hem de beklentilerinizi gerçekçi bir zemine oturtmanıza yardımcı olur.
+
+Casino matematiğinin iki temel kavramı vardır: **house edge** (ev avantajı) ve **beklenen değer** (expected value / EV). Bu iki kavramı kavradığınızda, hangi oyunun daha az dezavantajlı olduğunu ve uzun vadede ne kadar kaybetmeyi "bekleyebileceğinizi" anlayabilirsiniz.
+
+Bu makale, istatistik ya da matematik geçmişi olmayan okuyuculara da hitap edecek şekilde kaleme alınmıştır. Formüller sade tutulmuş, her kavram somut örneklerle desteklenmiştir.
+
+---
+
+## House Edge Nedir?
+
+House edge, bir casino oyununda evin (casino) her bahis üzerinden uzun vadede elde ettiği matematiksel avantajın yüzdesidir. Başka bir deyişle, teorik olarak her 100 TL bahse karşılık casinonun kâr ettiği miktardır.
+
+### Avrupa Ruleti Örneği
+
+Avrupa ruletinde 37 sayı vardır (0–36). Tek bir sayıya bahis koyduğunuzda:
+
+- Kazanma olasılığı: 1/37
+- Ödeme oranı: 35'e 1 (35 TL kazanırsınız + 1 TL bahsiniz geri döner)
+
+Eğer oyun matematiksel olarak adil olsaydı, 36'ya 1 ödemesi gerekirdi. Ama casino yalnızca 35'e 1 öder. Bu 1 birimlik fark, evin avantajıdır.
+
+**Hesaplama:**
+- Adil ödeme: 36 TL (1/37 × 36 = 0.9729... TL beklenen kazanç)
+- Gerçek ödeme: 35 TL (1/37 × 35 = 0.9459... TL beklenen kazanç)
+- House edge: (36 − 35) / 37 = 1/37 ≈ **%2.70**
+
+Bu, her 100 TL bahiste ortalama 2.70 TL'lik bir teorik kayıp anlamına gelir.
+
+### Amerikan Ruleti ile Karşılaştırma
+
+Amerikan ruletinde hem 0 hem de 00 bulunur — toplamda 38 sayı. Aynı hesaplama yapıldığında:
+
+- House edge: 2/38 ≈ **%5.26**
+
+İki rulet türü arasındaki tek fark ekstra bir 00 cebidir; ama bu, house edge'i neredeyse iki katına çıkarır. Avrupa ruletini seçmek, oyuncunun lehine çalışan basit ama güçlü bir karardır.
+
+---
+
+## Beklenen Değer (EV) Kavramı
+
+Beklenen değer, bir bahsin uzun vadede ortalama olarak ne kadar kazanç ya da kayıp getireceğini gösteren matematiksel bir ölçüttür.
+
+**Formül:**
+```
+EV = (Kazanma Olasılığı × Kazanç Miktarı) − (Kaybetme Olasılığı × Kayıp Miktarı)
+```
+
+### Basit Örnek: Yazı Tura
+
+Adil bir yazı tura oyununda 10 TL bahis koyuyorsunuz. Yazı gelirse 10 TL kazanırsınız, tura gelirse 10 TL kaybedersiniz.
+
+- EV = (0.5 × 10) − (0.5 × 10) = 5 − 5 = **0**
+
+Bu sıfır EV'li bir oyundur — ne ev ne oyuncu avantajlıdır. Adil kumar bu olurdu.
+
+### Casino Oyununda EV
+
+Avrupa ruletinde tek sayıya 10 TL koyuyorsunuz:
+
+- Kazanma olasılığı: 1/37 ≈ 0.02703
+- Kaybetme olasılığı: 36/37 ≈ 0.97297
+- Kazanç: 350 TL (35×10)
+- Kayıp: 10 TL
+
+```
+EV = (0.02703 × 350) − (0.97297 × 10)
+EV = 9.459 − 9.730
+EV = −0.27 TL
+```
+
+Her 10 TL'lik bahiste ortalama 0.27 TL kaybedeceksiniz. Bu küçük görünür, ama hızlı oynanan bir rulette saatte 60–100 bahis koyulduğu düşünüldüğünde, saatlik beklenen kayıp önemli bir rakama ulaşır.
+
+---
+
+## Oyun Bazında House Edge Karşılaştırması
+
+Farklı casino oyunlarının house edge değerleri büyük farklılıklar gösterir:
+
+| Oyun | House Edge |
+|---|---|
+| Blackjack (temel strateji) | ~%0.5 |
+| Video Poker (Jacks or Better, optimal) | ~%0.46 |
+| Bakara (Banker bahsi) | ~%1.06 |
+| Avrupa Ruleti | ~%2.70 |
+| Craps (Pass Line) | ~%1.41 |
+| Amerikan Ruleti | ~%5.26 |
+| Slot Makineleri | %2–15 |
+| Keno | %20–35 |
+
+Bu tablo şunu gösterir: Blackjack ve video poker, matematiksel olarak en az dezavantajlı casino oyunlarıdır — ama yalnızca doğru stratejiyle oynandığında.
+
+### RTP (Return to Player) Nedir?
+
+Slot makineleri ve bazı dijital oyunlar için house edge yerine genellikle RTP (Oyuncuya Dönüş Yüzdesi) kullanılır.
+
+**RTP = 100 − House Edge**
+
+Örneğin %96 RTP'li bir slotta house edge %4'tür. Bu demek değil ki her 100 TL'de 96 TL geri alırsınız — bu uzun vadeli istatistiksel bir ortalamadır. Milyonlarca tur sonunda bu ortalamaya yaklaşılır; kısa vadede varyans çok büyüktür.
+
+---
+
+## Pratik İpuçları
+
+- **Oyun seçimi önemlidir:** House edge'i düşük oyunları tercih edin. Aynı eğlence için blackjack, bakara veya Avrupa ruletinde çok daha az teorik kayıp yaşarsınız.
+- **Temel stratejiyi öğrenin:** Blackjack'te "his" ile oynamak house edge'i %2–4'e çıkarır. Temel strateji tablosunu öğrenerek %0.5'e düşürebilirsiniz.
+- **Bahis miktarı ve hız ilişkisi:** Saatte 100 el oynayan bir blackjack oyuncusu, saatte 40 el oynayan birinden çok daha fazla teorik kayıp yaşar — aynı bahis büyüklüğünde bile.
+- **Slotlarda varyans farkı:** Düşük varyansli slotlar sık ama küçük ödeme yapar; yüksek varyansli slotlar ise nadir ama büyük. House edge benzer olsa da deneyim çok farklıdır.
+- **Bonus şartlarını okuyun:** Casino bonuslarının kendi "efektif house edge"i vardır — çevrim şartları bu hesaba dahildir.
+
+---
+
+## Sık Sorulan Sorular
+
+**House edge her oyunda sabit midir?**
+Blackjack gibi strateji gerektiren oyunlarda, oyuncu kararlarına göre değişir. Optimal strateji uygulanırsa house edge minimum seviyeye iner; kötü kararlarla çok daha yükseğe çıkabilir.
+
+**Kısa vadede house edge'i yenebilir miyim?**
+Evet, kısa vadede kazanmak matematiksel olarak mümkündür. House edge uzun vadeli bir istatistiksel gerçektir. Yüzlerce veya binlerce tur sonunda teorik kayıp değerine yakınsanır.
+
+**Provably fair oyunlar farklı mıdır?**
+Bazı kripto casinolar "provably fair" algoritma kullanır — bu, sonuçların manipüle edilmediğini doğrulamanızı sağlar. Ancak house edge yine de mevcuttur; sadece şeffaflık artar.
+
+**Progresif jackpot slotlarının house edge'i nasıl hesaplanır?**
+Jackpot katkısı hesaba katıldığında bazı durumlarda EV sıfıra yaklaşabilir, ama jackpot kazanma olasılığı son derece düşüktür. Normal oyun kısmının house edge'i standart slotlara benzer kalır.
+
+**Oyun süresini uzatmak house edge'i değiştirir mi?**
+Hayır. Daha uzun oynamak daha fazla bahis anlamına gelir, dolayısıyla teorik toplam kayıp artar. House edge sabit kalır.
+
+---
+
+## Sonuç
+
+Casino matematiği, oyunculara karşı değil, casinonun sürekliliğini sağlamak için tasarlanmış bir sistemdir. House edge ve beklenen değer kavramlarını kavramak, sizi daha bilinçli bir oyuncu yapar. Hangi oyunun daha az dezavantajlı olduğunu bilmek, aynı bütçeyle daha uzun ve daha keyifli bir oyun deneyimi yaşamanıza imkân tanır.
+
+---
+
+> **Sorumluluk Reddi:** Bu makale yalnızca eğitim amaçlıdır. Kumar bağımlılık yapabilir. Lütfen sorumlu oynayın ve kaybetmeyi göze alabileceğinizden fazlasını riske atmayın. Yardım için Türkiye'deki bağımlılık destek hatlarına başvurabilirsiniz.

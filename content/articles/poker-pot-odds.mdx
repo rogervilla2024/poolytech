@@ -1,0 +1,179 @@
+---
+title: "Pot Odds ve Implied Odds Hesaplama: Pokerin Matematiği"
+description: "Poker pot odds nedir, nasıl hesaplanır? Implied odds, reverse implied odds ve outs hesabıyla matematiksel poker kararları almayı öğrenin."
+slug: "poker-pot-odds"
+date: "2026-03-03"
+category: "poker"
+tags: ["pot odds", "implied odds", "poker matematik", "outs hesaplama", "poker stratejisi"]
+image: "/images/poker-pot-odds.jpg"
+author: "Poolytech Editör"
+readingTime: 11
+featured: false
+---
+
+# Pot Odds ve Implied Odds Hesaplama: Pokerin Matematiği
+
+Poker, özünde bir olasılık ve beklenti değeri oyunudur. Uzun vadede kazanan oyuncular ile kaybedenler arasındaki fark, çoğunlukla kart şansından değil matematiksel karar kalitesinden kaynaklanır. Pot odds ve implied odds, bu matematiğin temel taşlarıdır. Bu kavramları anlamak, call yapıp yapmama kararını "hisle" değil somut hesaplamalarla vermenizi sağlar. Bu makalede pot odds ve implied odds kavramlarını sıfırdan öğrenecek, outs hesabını pratik örneklerle kavrayacak ve bu bilgileri gerçek masa kararlarına nasıl uygulayacağınızı öğreneceksiniz.
+
+## Pot Odds Nedir?
+
+Pot odds, potun mevcut büyüklüğünün, call yapmanız için gereken miktara oranıdır. Bu oran, bir bahsi karşılamaya değip değmeyeceğini anlık olarak belirlemenizi sağlar.
+
+### Temel Hesaplama Formülü
+
+> **Pot Odds = Pot Büyüklüğü : Call Miktarı**
+
+ya da yüzde olarak:
+
+> **Pot Odds (%) = Call Miktarı / (Pot + Call Miktarı) x 100**
+
+**Örnek 1:**
+Pot'ta 200 birim var ve rakibiniz 100 birim bahis yapıyor. Siz call yapmayı düşünüyorsunuz.
+
+- Pot odds = (200 + 100) : 100 = 3:1
+- Yüzde olarak: 100 / (200 + 100 + 100) = 100 / 400 = yüzde 25
+
+Bu, bahsi kazanmak için en az yüzde 25 equity'e (kazanma olasılığına) ihtiyacınız olduğu anlamına gelir. Eğer elinizin kazanma ihtimali yüzde 25'in üzerindeyse, matematiksel olarak call yapmak doğrudur.
+
+**Örnek 2:**
+Pot'ta 50 birim var ve rakibiniz 50 birim bahis yapıyor.
+
+- Pot odds = (50 + 50) : 50 = 2:1
+- Yüzde olarak: 50 / 150 = yüzde 33
+
+Bu durumda call yapmak için elinizin en az yüzde 33 kazanma ihtimali taşıması gerekir. Bu çok daha yüksek bir eşiktir.
+
+## Outs Hesaplama: Elinizin Olasılık Tabanı
+
+Pot odds hesaplamasını anlamlı kılmak için, elinizin gerçek kazanma ihtimalini bilmeniz gerekir. Bu noktada "outs" (kurtarıcı kartlar) devreye girer.
+
+### Out Nedir?
+
+Out, elimizi tamamlayacak ya da kazanan el haline getirecek deste kartlarıdır.
+
+**Flush Draw Örneği:**
+Elinizde A♠ 8♠ var, tahta 10♠ 5♠ 3♥ gösteriyor. Flush draw'unuz mevcut. Destede toplam 13 spade kartı bulunur. Elinizde 2, tahtada 4 spade var; toplam 6 spade görüntülenmiş. Kalan spade sayısı: 13 - 6 = 7. Yani 7 out'unuz var.
+
+**Straight Draw Örneği:**
+Elinizde 9♠ 8♥ var, tahta 7♦ 6♣ 2♠ gösteriyor. Açık uçlu straight draw'unuz (open-ended straight draw) var. 5 ya da 10 gelmesi straigth'i tamamlar. Her değerden 4 kart var: 4 adet 5, 4 adet 10. Toplam out: 8.
+
+### Outs'tan Olasılığa: "Kural 2 ve 4"
+
+Hem flop hem turn'ü görecekseniz out sayınızı 4 ile çarpın, yalnızca bir kart gelecekse 2 ile çarpın. Bu pratik hesaplama yöntemi, gerçek olasılıklara çok yakın sonuçlar verir.
+
+| Durum | Çarpan | Sonuç |
+|-------|--------|-------|
+| Flop + Turn + River (2 kart kaldı) | x 4 | Yaklaşık yüzde olasılık |
+| Yalnızca River (1 kart kaldı) | x 2 | Yaklaşık yüzde olasılık |
+
+**Flush draw hesabı:**
+- 7 out x 4 = yüzde 28 (iki kart kalıyorsa)
+- 7 out x 2 = yüzde 14 (bir kart kalıyorsa)
+
+**Open-ended straight draw:**
+- 8 out x 4 = yüzde 32 (iki kart kalıyorsa)
+- 8 out x 2 = yüzde 16 (bir kart kalıyorsa)
+
+### Sık Kullanılan Out Sayıları
+
+| El Durumu | Out Sayısı | River'da Olasılık | Flop'ta 2 Kart İçin |
+|-----------|------------|-------------------|----------------------|
+| Flush draw | 9 | yüzde 19,6 | yüzde 35 |
+| Open-ended straight | 8 | yüzde 17,4 | yüzde 31,5 |
+| Gutshot straight | 4 | yüzde 8,7 | yüzde 16,5 |
+| Set (üçlü için) | 2 | yüzde 4,3 | yüzde 8,4 |
+| Two pair (full house) | 4 | yüzde 8,7 | yüzde 16,5 |
+
+## Pot Odds ile Outs'u Birleştirmek: Karar Anı
+
+Bu iki kavramı birleştirerek pratik karar verme mekanizması şöyle çalışır:
+
+**Adım 1:** Out sayınızı hesaplayın.
+**Adım 2:** Kural 2 ya da 4 ile kazanma olasılığınızı bulun.
+**Adım 3:** Pot odds yüzdesini hesaplayın.
+**Adım 4:** Kazanma olasılığınız pot odds yüzdesini geçiyorsa call yapın, geçmiyorsa fold edin.
+
+**Kapsamlı Örnek:**
+- Pot: 150 birim
+- Rakibin bahsi: 75 birim
+- Eliniz: Flush draw (9 out)
+- Bir kart kaldı (river'dan önce turn'desiniz)
+
+Pot odds hesabı: 75 / (150 + 75 + 75) = 75 / 300 = yüzde 25
+
+Kazanma olasılığı: 9 out x 2 = yüzde 18
+
+Karar: Yüzde 18 kazanma olasılığı, yüzde 25'lik pot odds eşiğinin altında. Matematiksel olarak fold etmek doğrudur.
+
+Peki ya implied odds?
+
+## Implied Odds: Gelecekteki Kazanımları Hesaba Katmak
+
+Pot odds, yalnızca mevcut pot büyüklüğünü hesaba katar. Oysa gerçek poker kararlarında, eliniz tamamlanırsa rakibinizden elde edebileceğiniz ek chip'leri de göz önünde bulundurmanız gerekir. İşte bu düşünceye implied odds (zımni olasılıklar) denir.
+
+### Implied Odds Hesabı
+
+Yukarıdaki örneğe geri dönelim. Flush draw'unuz var, pot odds matematiksel olarak call etmeyi gerektirmiyor. Ancak rakibinizin 400 birim daha stack'i var ve flush tamamlandığında büyük olasılıkla ödeyecek. Bu durumda implied odds hesabına geçilebilir.
+
+> **Gerekli Ek Kazanım = (Call miktarı / Kazanma ihtimali) - Mevcut pot**
+
+75 / 0,18 = yaklaşık 417 birim toplam gereksinim. Mevcut pot 300 olduğundan, en az 117 birim daha kazanmanız gerekir. Rakibinizin 400 birim stack'i olduğundan bu makul görünür. Bu durumda implied odds, call'ı haklı kılabilir.
+
+**Ancak dikkat edilmesi gereken faktörler:**
+1. Rakibinizin "pazarlıklı" olup olmadığı. Calling station'lar ödeme yapar; tight-passive rakipler yapmayabilir.
+2. Draw'unuzu tamamlayan kartın açık olup olmadığı. Eğer flush tamamlayan kart açıkça tahtada görünüyorsa, rakibin ödememe ihtimali artar.
+3. Rakibinizin stacki. Yeterli chip yoksa implied odds hesabı geçersiz kalır.
+
+## Reverse Implied Odds: Kazanırken Bile Kaybetmek
+
+Reverse implied odds (ters zımni olasılıklar), tamamlananeltarın bazen bile kazanmadığı ya da sizi çok pahalıya mal edebileceği durumları tanımlar.
+
+**Klasik Örnek:**
+Elinizde 6♠ 7♠ var, tahta 8♠ 9♠ 5♠ gösteriyor. Straigth flush'ınız var. Harika görünüyor. Ancak rakibiniz çok güçlü bir şekilde bahis yapıyor. Eğer rakibinizin A♠ K♠ gibi bir flush'ı ya da daha yüksek bir straight flush'ı varsa, en iyi eliniz bile kazanmaz. Bu durumda "ikinci en iyi el" tuzağına düşüyorsunuzdur.
+
+Reverse implied odds, özellikle şu durumlarda dikkat gerektirir:
+- Düşük flush'lar (özellikle tahta aynı renk olduğunda)
+- Düşük straight'ler (tahta higher straight ihtimali taşıyorsa)
+- İkinci en iyi çift ya da two pair (rakibin set ya da daha yüksek two pair sahibi olabileceği durumlarda)
+
+## Pratik İpuçları: Matematiği Masaya Taşımak
+
+**1. Hesabı basitleştirin**
+Masada hızlı karar verirken tam hesap yapmak zordur. "Kural 2 ve 4" ve pot oranını yüzde olarak zihinden tahmin etmeyi alışkanlık haline getirin. Hız, kesinlikten önce gelir.
+
+**2. Pot büyüklüğünü takip edin**
+Her bahis turunda pot'un yaklaşık büyüklüğünü zihinsel olarak güncelleyin. Bu alışkanlık hem pot odds hesabını kolaylaştırır hem de rakiplerin pot ile orantısız ya da orantısız bahislerini fark etmenizi sağlar.
+
+**3. Blockers'ı hesaba katın**
+Elinizde rakibinizin tamamlamasını engellediğiniz kartlar (blockers) varsa, out sayıları değişebilir. Örneğin, rakibinizin flush draw'unu blokladığınızda sizin implied odds hesabınız değişir.
+
+**4. Stack derinliğine göre implied odds'u ayarlayın**
+Implied odds, derin stack oyunlarında çok daha değerlidir. Kısa stack oyunlarında yalnızca mevcut pot odds'a odaklanın.
+
+**5. Düzenli pratik yapın**
+Ellerinizi kayıt altına alarak ya da hand history analiz araçları kullanarak pot odds kararlarınızı geriye dönük değerlendirin. Matematiksel hatalar, en hızlı öğrenim sağlayan geribildirimlerdir.
+
+## Sık Sorulan Sorular
+
+**Pot odds her zaman belirleyici midir?**
+Pot odds, bir karar faktörüdür; ancak tek belirleyici değildir. Rakip profili, implied odds, pozisyon ve el sıralaması hiyerarşisi gibi faktörler de dikkate alınmalıdır. Matematiği görmezden gelemezsiniz, ancak onu tek kılavuz olarak kullanamaz da.
+
+**Flush draw ile straight draw aynı anda sahip olunabilir mi?**
+Evet, buna "combo draw" denir ve çok değerli bir durumdur. Örneğin, hem flush draw hem de open-ended straight draw bir arada 15 kata kadar out verebilir, bu da yüzde 54'e varan kazanma olasılığına karşılık gelir.
+
+**Pot odds, turnuvalarda cash game'den farklı işler mi?**
+Temel matematik aynıdır. Ancak turnuvalarda "fold equity" ve ICM (Independent Chip Model) gibi ekstra faktörler devreye girer. Turnuvada chip kaybetmek, kazanmaktan elde edilenden daha değerli olabilir.
+
+**Rakibim all-in yapıyor ve implied odds kalmıyor. Sadece pot odds mu geçerli?**
+All-in durumunda evet, yalnızca pot odds hesabı geçerlidir. Implied odds, gelecekte bahis yapılabilecek durumlar için anlam taşır. All-in sonrası kartlar açılır ve ek bahis yapılamaz.
+
+**Pot odds hesabını otomatikleştirmek için yazılım kullanmak meşru mu?**
+Canlı oyunlarda evet, zira zihinsel hesaplama yapabilirsiniz. Ancak online platformların büyük çoğunluğu, gerçek zamanlı karar destek yazılımlarını kurallarına aykırı saymaktadır. Platform kurallarını kontrol edin.
+
+## Sonuç
+
+Pot odds ve implied odds, pokerin matematiksel çekirdeğini oluşturur. Bu kavramları gerçek anlamda kavramak, sezgiye dayalı kararlardan analitik kararlara geçişi sağlar. Uzun vadede, her elde doğru matematiksel kararı veren oyuncu lehte beklenti değeri üretir. Bu birikim, zamanla somut kazanç avantajına dönüşür. Matematiğinizi güçlendirin, ancak tek aracınız olarak kullanmayın.
+
+---
+
+> **Sorumluluk Reddi:** Bu makale yalnızca eğitim amaçlıdır. Kumar bağımlılık yapabilir. Lütfen sorumlu oynayın ve kaybetmeyi göze alabileceğinizden fazlasını riske atmayın.

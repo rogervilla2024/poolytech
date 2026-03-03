@@ -1,0 +1,19 @@
+:8080 {
+	root * out
+	encode gzip
+	file_server
+
+	# SPA fallback + clean URLs
+	try_files {path} {path}.html {path}/index.html /index.html
+
+	# Güvenlik başlıkları
+	header {
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "strict-origin-when-cross-origin"
+	}
+
+	# Statik dosya önbelleği
+	@static path *.js *.css *.woff2 *.png *.webp *.avif *.ico *.svg
+	header @static Cache-Control "public, max-age=31536000, immutable"
+}
