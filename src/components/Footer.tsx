@@ -35,19 +35,34 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Hızlı Linkler */}
+          {/* Önerilen Siteler */}
           <div>
-            <h3 className="font-display font-semibold text-text-primary mb-4">Hızlı Linkler</h3>
+            <h3 className="font-display font-semibold text-text-primary mb-4">Önerilen Siteler</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-sm text-text-secondary hover:text-accent-gold transition-colors">
-                  Ana Sayfa
-                </Link>
+                <a href="https://www.injuryandsuspension.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-accent-gold transition-colors">
+                  Injuries and Suspensions
+                </a>
               </li>
               <li>
-                <Link href="/hakkimizda" className="text-sm text-text-secondary hover:text-accent-gold transition-colors">
-                  Hakkımızda
-                </Link>
+                <a href="https://livecasinodata.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-accent-gold transition-colors">
+                  Real-Time Live Casino Statistics
+                </a>
+              </li>
+              <li>
+                <a href="https://www.wellcomedbt.org/" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-accent-gold transition-colors">
+                  Bahis Siteleri
+                </a>
+              </li>
+              <li>
+                <a href="https://www.jtaics.org/" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-accent-gold transition-colors">
+                  Sweet Bonanza
+                </a>
+              </li>
+              <li>
+                <a href="https://www.macchampion.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-accent-gold transition-colors">
+                  Canlı Casino Siteleri
+                </a>
               </li>
             </ul>
           </div>
