@@ -600,6 +600,14 @@
         {
           "slug": "casino-bonuslari",
           "anchor_text": "Casino Bonusları ve Çevrim Şartları"
+        },
+        {
+          "slug": "casino-para-yonetimi",
+          "anchor_text": "Casino Para Yönetimi Stratejisi"
+        },
+        {
+          "slug": "variance-yonetimi",
+          "anchor_text": "Varyans Yönetimi Rehberi"
         }
       ]
     },
@@ -625,6 +633,14 @@
         {
           "slug": "sorumlu-oyun",
           "anchor_text": "Sorumlu Oyun Rehberi"
+        },
+        {
+          "slug": "kazanma-olasiliklari",
+          "anchor_text": "Kazanma Olasılıkları Karşılaştırma"
+        },
+        {
+          "slug": "casino-mitleri",
+          "anchor_text": "Casino Mitleri ve Gerçekler"
         }
       ]
     },
@@ -646,6 +662,14 @@
         {
           "slug": "canli-casino-rehber",
           "anchor_text": "Canlı Casino Rehberi"
+        },
+        {
+          "slug": "casino-psikoloji",
+          "anchor_text": "Casino Psikolojisi"
+        },
+        {
+          "slug": "casino-para-yonetimi",
+          "anchor_text": "Casino Para Yönetimi"
         }
       ]
     },
@@ -671,6 +695,14 @@
         {
           "slug": "sorumlu-oyun",
           "anchor_text": "Sorumlu Kumar Rehberi"
+        },
+        {
+          "slug": "online-casino-guvenlik",
+          "anchor_text": "Online Casino Güvenliği"
+        },
+        {
+          "slug": "casino-etiketi",
+          "anchor_text": "Casino Etiketi Rehberi"
         }
       ]
     },
@@ -696,6 +728,252 @@
         {
           "slug": "sorumlu-oyun",
           "anchor_text": "Sorumlu Oyun"
+        },
+        {
+          "slug": "ucretsiz-casino-pratik",
+          "anchor_text": "Ücretsiz Pratik Rehberi"
+        },
+        {
+          "slug": "online-casino-guvenlik",
+          "anchor_text": "Online Casino Güvenliği"
+        }
+      ]
+    },
+    {
+      "slug": "casino-psikoloji",
+      "related_articles": [
+        {
+          "slug": "sorumlu-oyun",
+          "anchor_text": "Sorumlu Kumar Rehberi"
+        },
+        {
+          "slug": "casino-mitleri",
+          "anchor_text": "Casino Mitleri ve Yanılgılar"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        },
+        {
+          "slug": "casino-para-yonetimi",
+          "anchor_text": "Casino Para Yönetimi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği ve Beklenen Değer"
+        }
+      ]
+    },
+    {
+      "slug": "kazanma-olasiliklari",
+      "related_articles": [
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği ve House Edge"
+        },
+        {
+          "slug": "casino-oyun-secimi",
+          "anchor_text": "Oyun Seçimi Rehberi"
+        },
+        {
+          "slug": "slot-rtp-rehberi",
+          "anchor_text": "Slot RTP Rehberi"
+        },
+        {
+          "slug": "rulet-avrupa-amerika",
+          "anchor_text": "Avrupa vs Amerikan Rulet Karşılaştırması"
+        },
+        {
+          "slug": "bakara-banker-player",
+          "anchor_text": "Bakara House Edge Karşılaştırması"
+        }
+      ]
+    },
+    {
+      "slug": "online-casino-guvenlik",
+      "related_articles": [
+        {
+          "slug": "sorumlu-oyun",
+          "anchor_text": "Sorumlu Kumar Rehberi"
+        },
+        {
+          "slug": "casino-bonuslari",
+          "anchor_text": "Casino Bonusları ve Çevrim Şartları"
+        },
+        {
+          "slug": "canli-casino-rehber",
+          "anchor_text": "Canlı Casino Rehberi"
+        },
+        {
+          "slug": "ucretsiz-casino-pratik",
+          "anchor_text": "Ücretsiz Pratik Yapma Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "casino-mitleri",
+      "related_articles": [
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği: Gerçekler"
+        },
+        {
+          "slug": "rulet-dagilim-analizi",
+          "anchor_text": "Rulet Rastgelelik Analizi"
+        },
+        {
+          "slug": "casino-psikoloji",
+          "anchor_text": "Casino Psikolojisi"
+        },
+        {
+          "slug": "slot-rtp-rehberi",
+          "anchor_text": "Slot RTP: Gerçek Oranlar"
+        },
+        {
+          "slug": "sorumlu-oyun",
+          "anchor_text": "Sorumlu Kumar Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "bahis-turleri-rehber",
+      "related_articles": [
+        {
+          "slug": "rulet-temel-rehber",
+          "anchor_text": "Rulet Bahis Türleri"
+        },
+        {
+          "slug": "bakara-banker-player",
+          "anchor_text": "Bakara Bahis Seçenekleri"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "House Edge Hesaplama"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        },
+        {
+          "slug": "casino-oyun-secimi",
+          "anchor_text": "Oyun Seçimi Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "casino-etiketi",
+      "related_articles": [
+        {
+          "slug": "canli-casino-rehber",
+          "anchor_text": "Canlı Casino Rehberi"
+        },
+        {
+          "slug": "casino-oyun-secimi",
+          "anchor_text": "Oyun Seçimi Rehberi"
+        },
+        {
+          "slug": "ucretsiz-casino-pratik",
+          "anchor_text": "Ücretsiz Pratik Yapma"
+        },
+        {
+          "slug": "casino-para-yonetimi",
+          "anchor_text": "Casino Para Yönetimi"
+        }
+      ]
+    },
+    {
+      "slug": "variance-yonetimi",
+      "related_articles": [
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        },
+        {
+          "slug": "slot-volatilite",
+          "anchor_text": "Slot Volatilite Rehberi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği"
+        },
+        {
+          "slug": "casino-para-yonetimi",
+          "anchor_text": "Casino Para Yönetimi"
+        },
+        {
+          "slug": "kazanma-olasiliklari",
+          "anchor_text": "Kazanma Olasılıkları Karşılaştırma"
+        }
+      ]
+    },
+    {
+      "slug": "casino-oyun-secimi",
+      "related_articles": [
+        {
+          "slug": "kazanma-olasiliklari",
+          "anchor_text": "Kazanma Olasılıkları Karşılaştırma"
+        },
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi"
+        },
+        {
+          "slug": "slot-makinesi-secimi",
+          "anchor_text": "Slot Makinesi Seçimi"
+        },
+        {
+          "slug": "bahis-turleri-rehber",
+          "anchor_text": "Bahis Türleri Rehberi"
+        },
+        {
+          "slug": "ucretsiz-casino-pratik",
+          "anchor_text": "Ücretsiz Pratik ile Oyun Keşfedin"
+        }
+      ]
+    },
+    {
+      "slug": "ucretsiz-casino-pratik",
+      "related_articles": [
+        {
+          "slug": "casino-oyun-secimi",
+          "anchor_text": "Oyun Seçimi Rehberi"
+        },
+        {
+          "slug": "casino-bonuslari",
+          "anchor_text": "Casino Bonusları"
+        },
+        {
+          "slug": "online-casino-guvenlik",
+          "anchor_text": "Online Casino Güvenliği"
+        },
+        {
+          "slug": "casino-etiketi",
+          "anchor_text": "Casino Etiketi Rehberi"
+        }
+      ]
+    },
+    {
+      "slug": "casino-para-yonetimi",
+      "related_articles": [
+        {
+          "slug": "bankroll-yonetimi",
+          "anchor_text": "Bankroll Yönetimi Rehberi"
+        },
+        {
+          "slug": "sorumlu-oyun",
+          "anchor_text": "Sorumlu Kumar Rehberi"
+        },
+        {
+          "slug": "variance-yonetimi",
+          "anchor_text": "Varyans Yönetimi"
+        },
+        {
+          "slug": "casino-psikoloji",
+          "anchor_text": "Casino Psikolojisi"
+        },
+        {
+          "slug": "casino-matematik",
+          "anchor_text": "Casino Matematiği ve Beklenen Değer"
         }
       ]
     }

@@ -7,6 +7,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://poolytech.com/kategori/genel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://poolytech.com/kategori/bakara</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -45,6 +50,12 @@
     <loc>https://poolytech.com/kategori/sorumlu-oyun</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/bahis-turleri-rehber</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://poolytech.com/makaleler/bakara-banker-player</loc>
@@ -125,7 +136,49 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://poolytech.com/makaleler/casino-etiketi</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://poolytech.com/makaleler/casino-matematik</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/casino-mitleri</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/casino-oyun-secimi</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/casino-para-yonetimi</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/casino-psikoloji</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/kazanma-olasiliklari</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/online-casino-guvenlik</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -222,6 +275,18 @@
   </url>
   <url>
     <loc>https://poolytech.com/makaleler/sorumlu-oyun</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/ucretsiz-casino-pratik</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://poolytech.com/makaleler/variance-yonetimi</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

@@ -5,8 +5,16 @@
     <link>https://poolytech.com</link>
     <description>Blackjack, rulet, poker, bakara ve slot oyunlari icin stratejiler, taktikler ve uzman rehberler.</description>
     <language>tr</language>
-    <lastBuildDate>Tue, 03 Mar 2026 11:33:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 12:54:26 GMT</lastBuildDate>
     <atom:link href="https://poolytech.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Casino Bahis Türleri Rehberi: Hangisi Size Uygun?</title>
+      <link>https://poolytech.com/makaleler/bahis-turleri-rehber</link>
+      <description>Düz bahis, sistem bahisleri, progresif bahisler ve value betting arasındaki farklar, her yöntemin matematiksel analizi ve hangi oyuncu profiline uygun olduğu.</description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://poolytech.com/makaleler/bahis-turleri-rehber</guid>
+      <category>genel</category>
+    </item>
     <item>
       <title>Bakara: Banker mı Player mı? Matematiksel Karşılaştırma</title>
       <link>https://poolytech.com/makaleler/bakara-banker-player</link>
@@ -112,6 +120,14 @@
       <category>rehber</category>
     </item>
     <item>
+      <title>Casino Etiketi: Masada Nasıl Davranmalısınız?</title>
+      <link>https://poolytech.com/makaleler/casino-etiketi</link>
+      <description>Casino masasında doğru davranış kuralları: bahşiş kültürü, dealer ile iletişim, diğer oyuncularla ilişkiler ve online casino etiketi rehberi.</description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://poolytech.com/makaleler/casino-etiketi</guid>
+      <category>genel</category>
+    </item>
+    <item>
       <title>Casino Matematiği: House Edge ve Beklenen Değer</title>
       <link>https://poolytech.com/makaleler/casino-matematik</link>
       <description>House edge nedir, nasıl hesaplanır? Beklenen değer (EV) kavramı ve casino oyunlarının matematiksel gerçekleri hakkında kapsamlı rehber.</description>
@@ -120,52 +136,36 @@
       <category>strateji</category>
     </item>
     <item>
-      <title>Poker Blöf Teknikleri: Ne Zaman ve Nasıl Blöf Yapılır?</title>
-      <link>https://poolytech.com/makaleler/poker-blof-teknikleri</link>
-      <description>Pokerde blöf nedir, ne zaman yapılmalı, hangi faktörler gözetilmeli? Saf blöf, yarı blöf ve blöf yakalamayı kapsamlı olarak öğrenin.</description>
+      <title>Casino Mitleri ve Gerçekler: 15 Yaygın Yanılgı</title>
+      <link>https://poolytech.com/makaleler/casino-mitleri</link>
+      <description>Sıcak ve soğuk makine, kart sayma yasak mı, rulet sistemleri işe yarıyor mu, martingale garantili mi? 15 yaygın casino mitini matematiksel gerçeklerle çürütüyoruz.</description>
       <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://poolytech.com/makaleler/poker-blof-teknikleri</guid>
-      <category>poker</category>
+      <guid isPermaLink="true">https://poolytech.com/makaleler/casino-mitleri</guid>
+      <category>genel</category>
     </item>
     <item>
-      <title>Pot Odds ve Implied Odds Hesaplama: Pokerin Matematiği</title>
-      <link>https://poolytech.com/makaleler/poker-pot-odds</link>
-      <description>Poker pot odds nedir, nasıl hesaplanır? Implied odds, reverse implied odds ve outs hesabıyla matematiksel poker kararları almayı öğrenin.</description>
+      <title>Hangi Casino Oyunu Size Uygun? Kişilik Bazlı Rehber</title>
+      <link>https://poolytech.com/makaleler/casino-oyun-secimi</link>
+      <description>Casino oyun türlerini kişilik tipinize göre nasıl seçersiniz? Stratejik ve şansa dayalı oyunlar, sosyal ve bireysel tercihler için kapsamlı rehber.</description>
       <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://poolytech.com/makaleler/poker-pot-odds</guid>
-      <category>poker</category>
+      <guid isPermaLink="true">https://poolytech.com/makaleler/casino-oyun-secimi</guid>
+      <category>genel</category>
     </item>
     <item>
-      <title>Poker&apos;de Pozisyon Avantajı Neden Kritik?</title>
-      <link>https://poolytech.com/makaleler/poker-pozisyon-avantaji</link>
-      <description>Pokerde pozisyon neden bu kadar önemli? Erken, orta ve geç pozisyonun stratejik farkını, matematiksel avantajını ve nasıl kullanacağınızı öğrenin.</description>
+      <title>Casino Para Yönetimi: Gelişmiş Bahis Stratejileri</title>
+      <link>https://poolytech.com/makaleler/casino-para-yonetimi</link>
+      <description>Kelly Criterion, düz bahis ve progresif sistemlerin karşılaştırması, session planı oluşturma, kar-zarar takibi ve çekim disiplini için kapsamlı rehber.</description>
       <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://poolytech.com/makaleler/poker-pozisyon-avantaji</guid>
-      <category>poker</category>
+      <guid isPermaLink="true">https://poolytech.com/makaleler/casino-para-yonetimi</guid>
+      <category>strateji</category>
     </item>
     <item>
-      <title>Texas Hold&apos;em Başlangıç Rehberi: Kurallar, Eller ve Temel Strateji</title>
-      <link>https://poolytech.com/makaleler/poker-texas-holdem-rehber</link>
-      <description>Texas Hold&apos;em poker nasıl oynanır? El sıralamaları, bahis turları ve yeni başlayanlar için temel stratejileri bu kapsamlı rehberde öğrenin.</description>
+      <title>Casino Psikolojisi: Kumarhaneler Sizi Nasıl Etkiler?</title>
+      <link>https://poolytech.com/makaleler/casino-psikoloji</link>
+      <description>Casino ortamının psikolojik tasarımı, ışık, ses ve renk etkisi, kayıp kovalama davranışı ve duygusal kontrolü kaybetmeden oynamayı öğrenin.</description>
       <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://poolytech.com/makaleler/poker-texas-holdem-rehber</guid>
-      <category>poker</category>
-    </item>
-    <item>
-      <title>Poker Turnuva Stratejisi: Erken, Orta ve Geç Aşama</title>
-      <link>https://poolytech.com/makaleler/poker-turnuva-strateji</link>
-      <description>Poker turnuvalarında nasıl strateji geliştirilir? Erken, orta ve geç aşama taktikleri, ICM, stack yönetimi ve final masa stratejisini öğrenin.</description>
-      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://poolytech.com/makaleler/poker-turnuva-strateji</guid>
-      <category>poker</category>
-    </item>
-    <item>
-      <title>Avrupa vs Amerikan Rulet: Fark Nedir?</title>
-      <link>https://poolytech.com/makaleler/rulet-avrupa-amerika</link>
-      <description>Avrupa ve Amerikan ruleti arasındaki farkları öğrenin: tekerlek yapısı, house edge, RTP ve hangi versiyonun matematiksel olarak size daha avantajlı olduğunu keşfedin.</description>
-      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://poolytech.com/makaleler/rulet-avrupa-amerika</guid>
-      <category>rulet</category>
+      <guid isPermaLink="true">https://poolytech.com/makaleler/casino-psikoloji</guid>
+      <category>genel</category>
     </item>
   </channel>
 </rss>

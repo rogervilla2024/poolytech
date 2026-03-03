@@ -330,6 +330,116 @@
       ],
       "search_volume_estimate": "yüksek",
       "difficulty": "yüksek"
+    },
+    {
+      "slug": "casino-psikoloji",
+      "primary_keyword": "casino psikolojisi",
+      "secondary_keywords": [
+        "kumar psikolojisi",
+        "casino oyuncu davranışları",
+        "kayıp kovalama psikolojisi"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "kazanma-olasiliklari",
+      "primary_keyword": "casino oyunları kazanma olasılıkları",
+      "secondary_keywords": [
+        "casino oyun karşılaştırma",
+        "en iyi kazanma şansı casino",
+        "casino RTP karşılaştırma tablosu"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "online-casino-guvenlik",
+      "primary_keyword": "online casino güvenliği",
+      "secondary_keywords": [
+        "güvenli online casino nasıl seçilir",
+        "casino lisansı kontrol",
+        "SSL şifreleme online casino"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "casino-mitleri",
+      "primary_keyword": "casino mitleri ve efsaneleri",
+      "secondary_keywords": [
+        "casino yanılgıları doğru mu",
+        "kumar efsaneleri gerçekler",
+        "casino şans sistemi aldatmaca"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "bahis-turleri-rehber",
+      "primary_keyword": "casino bahis türleri rehberi",
+      "secondary_keywords": [
+        "casino bahis çeşitleri neler",
+        "inside outside bahis farkı",
+        "casino bahis seçenekleri karşılaştırma"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "casino-etiketi",
+      "primary_keyword": "casino etiketi kuralları",
+      "secondary_keywords": [
+        "casino davranış kuralları",
+        "casinoda nasıl davranılır",
+        "casino dress code"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "variance-yonetimi",
+      "primary_keyword": "casino varyans yönetimi",
+      "secondary_keywords": [
+        "kumar varyansı nedir",
+        "standart sapma casino",
+        "yüksek varyans düşük varyans farkı"
+      ],
+      "search_volume_estimate": "orta",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "casino-oyun-secimi",
+      "primary_keyword": "casino oyun seçimi rehberi",
+      "secondary_keywords": [
+        "hangi casino oyunu oynamalıyım",
+        "casino oyunları karşılaştırma",
+        "bütçeye göre casino oyun seçimi"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
+    },
+    {
+      "slug": "ucretsiz-casino-pratik",
+      "primary_keyword": "ücretsiz casino oyunları pratik",
+      "secondary_keywords": [
+        "demo casino oyunları",
+        "casino bedava pratik yapma",
+        "free play casino avantajları"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "düşük"
+    },
+    {
+      "slug": "casino-para-yonetimi",
+      "primary_keyword": "casino para yönetimi stratejisi",
+      "secondary_keywords": [
+        "casino bütçe planlaması",
+        "oturum başı casino limiti",
+        "kazanç ve kayıp hedefi belirleme"
+      ],
+      "search_volume_estimate": "yüksek",
+      "difficulty": "orta"
     }
   ]
 }
